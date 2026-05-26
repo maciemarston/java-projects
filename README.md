@@ -18,3 +18,14 @@ Run the BankApp.java file in Eclipse IDE.
 - Withdraw money (with balance check)
 - Exit
 ---
+# Student Grade Tracker
+This is a simple console-based Java application that allows users to manage and analyze student grades.
+## How to run
+Run the GradeApp.java file in Eclipse IDE.
+## Features
+- Add student grades
+- View all entered grades
+- Calculate average grade
+- Find highest and lowest grade
+- Exit
+---
