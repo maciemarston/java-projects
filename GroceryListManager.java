@@ -7,8 +7,6 @@ public class GroceryListManager {
 
 	public static void main(String[] args) {
 		
-		// TODO Auto-generated method stub
-		
 		Scanner input = new Scanner(System.in);
 		
 		ArrayList<String> groceries = new ArrayList<>();
@@ -40,10 +38,14 @@ public class GroceryListManager {
 			} else if (choice == 2) {
 				
 				System.out.println("\nGrocery List:");
-				
+
+			if (groceries.isEmpty()) {
+				System.out.println("No grocery items available.");
+			} else {
 				for (int i = 0; i < groceries.size(); i++) {
 					System.out.println((i + 1) + ". " + groceries.get(i));
 				}
+			}
 				
 			} else if (choice == 3) {
 				
